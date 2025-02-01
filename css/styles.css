@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #ff7b54;
+  --secondary-color: #ffffff;
+  --text-on-primary-color: #ffffff;
+  --text-on-secondary-color: #ff7b54;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-on-primary-color);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
