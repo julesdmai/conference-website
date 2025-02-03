@@ -8,22 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet" />
     <link href="styles/index.css" rel="stylesheet" />
   </head>
-  <body>
-    <header>
+  <body class="body">
+    <!-- HEADER -->
+    <header class="header">
       <a href="/">CSS Day</a>
-      <div>
-        <nav>
-          <ul>
+      <div class="header__div">
+        <nav class="header__nav">
+          <ul class="header__ul">
             <li><a href="#">About</a></li>
             <li><a href="speakers.html">Speakers</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <img src="./icons/shopping-cart.svg" alt="Shopping cart" />
+        <img src="./icons/shopping-cart.svg" alt="Shopping cart" class="header__img"/>
       </div>
     </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
     <main>
       <p>CSS Day is a conference for developers who love beautiful websites.</p>
       <p>4-8 June 2023</p>
@@ -31,5 +36,6 @@
         Buy Tickets <img src="./icons/arrow-right.svg" alt="Right arrow" />
       </button>
     </main>
+    <!-- END MAIN -->
   </body>
 </html>
