@@ -6,3 +6,25 @@
 
 /* GENERAL STYLES */
 
+
+
+/* HEADER */
+.main__header {
+    border: 2px solid lightpink;
+    padding: 5px;
+
+}
+
+
+/* SPEAKER CARDS */
+.speaker-card {
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.speaker__img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
