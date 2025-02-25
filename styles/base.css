@@ -18,10 +18,22 @@
   }
 
   /* GENERAL STYLES */
-body {
+.body {
+  font-family: var(--font-family), sans-serif;
+}
+
+.body--primary {
   background-color: var(--color-primary);
   color: var(--color-text-on-primary);
-  font-family: var(--font-family), sans-serif;
+}
+
+.body--secondary {
+  background-color: var(--color-text-on-primary);
+  color: var(--color-primary);
+}
+
+.main {
+  padding: 150px;
 }
 
 a {
