@@ -1,11 +1,11 @@
 /* VARIABLES - COLORS */
-
-/* VARIABLES - COLORS */
 :root {
-    --primary-color: #ff7b54;
-    --secondary-color: #ffffff;
-    --text-on-primary-color: #ffffff;
-    --text-on-secondary-color: #ff7b54;
+    --color-primary: #ff7b54;
+    --color-secondary: #ffffff;
+    --color-text-on-primary: #ffffff;
+    --color-text-on-secondary: #ff7b54;
+
+    --font-family: "Inter", sans-serif;
   }
   
   /* FONTS */
@@ -31,10 +31,4 @@
   *::before,
   *::after {
     box-sizing: inherit;
-  }
-
-/* GENERAL STYLES */
-  a {
-      color: inherit;
-      text-decoration: none;
   }
