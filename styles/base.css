@@ -52,7 +52,8 @@ html {
   box-sizing: inherit;
 }
 
-/* OVERWRITE DEFAULT SET ON <P> IN USER AGENT STYLE SHEET  */
+/* OVERWRITE DEFAULT SET IN USER AGENT STYLE SHEET  */
+h2,
 p {
   margin: 0;
 }
