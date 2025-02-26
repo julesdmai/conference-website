@@ -50,7 +50,9 @@
 }
 
 /* MEDIA QUERIES */
-@media (max-width < 1100px) {
-    display: grid;
-    grid-template-columns: 1fr;
+@media (width < 1000px) {
+    .speakers__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
