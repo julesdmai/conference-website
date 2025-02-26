@@ -161,6 +161,10 @@ p {
 }
 
 @media (width < 840px) {
+  .body--no-scroll {
+    overflow: hidden;
+  }
+
   .menu {
     display: block;
   }
@@ -175,13 +179,13 @@ p {
 
   .nav {
     position: absolute;
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
     background: var(--color-primary); 
     top: 60px;
     left: -100%;
     padding-top: 60px;
-    transition: left 0.2s linear;
+    transition: left 0.1s linear;
   }
 
   .nav--visible {
