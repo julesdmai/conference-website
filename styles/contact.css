@@ -93,14 +93,13 @@
     color: white;
     cursor: pointer;
     border-radius: 4px;
-    transition: background-color 1s ease, border-color 1s ease;
+    transition: background-color 1s ease;
 }
 
 .form__submit:hover,
 .form__submit:focus {
     background-color: rgba(255,255,255,0.9);
     color: var(--color-primary);
-    border-color: var(--color-primary);
 }
 
 /* RESPONSIVE DESIGN */
